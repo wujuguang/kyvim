@@ -152,7 +152,6 @@ Bundle 'std_c.zip'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
-"Bundle 'taglist.vim'
 Bundle 'TxtBrowser'
 Bundle 'ZoomWin'
 
