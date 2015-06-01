@@ -18,8 +18,6 @@ My vim development environment Settings
 # 安装
 	apt-get install ctags
 	apt-get install cscope
-	apt-get install vim-scripts
-	vim-addons install taglist
 
 # 使用
 	确保安装了完整的vim(如果是Ubuntu就直接安装软件中心的vim即可)
