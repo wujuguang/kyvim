@@ -28,5 +28,6 @@ My vim development environment Settings
 	执行以下:
 	ln -s <YOU_PATH>/vim ~/.vim
 	ln -s <YOU_PATH>/vimrc ~/.vimrc
-	
+
+	git clone https://github.com/gmarik/vundle.git <YOU_PATH>/vim/bundle/vundle/
 	打开vim并执行bundle程序:PluginInstall
