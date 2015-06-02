@@ -29,3 +29,7 @@ My vim development environment Settings
 
 	git clone https://github.com/gmarik/vundle.git <YOU_PATH>/vim/bundle/vundle/
 	打开vim并执行bundle程序:PluginInstall
+
+# 一键安装
+	下载执行 setup.sh
+	wget https://raw.githubusercontent.com/wujuguang/kyvim/plugin/setup.sh && sh setup.sh
