@@ -156,6 +156,7 @@ Bundle 'TxtBrowser'
 Bundle 'ZoomWin'
 
 " kylin 添加
+Bundle 'andviro/flake8-vim'
 Bundle 'hynek/vim-python-pep8-indent'
 "Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'ervandew/supertab'
@@ -1021,6 +1022,21 @@ au BufRead,BufNewFile,BufEnter * cd %:p:h
 let g:pydiction_location = '~/.vim/tools/pydiction/complete-dict'
 let g:pydiction_menu_height = 20
 let g:pymode_indent = 0
+
+" -----------------------------------------------------------------------------
+"  <flake8-vim> 插件配置
+
+" kylin 添加
+ let g:PyFlakeOnWrite = 1
+ let g:PyFlakeCheckers = 'pep8,mccabe,frosted'
+ let g:PyFlakeDefaultComplexity = 10
+ let g:PyFlakeDisabledMessages = 'E501'
+ let g:PyFlakeAggressive = 0
+ let g:PyFlakeCWindow = 6
+ let g:PyFlakeSigns = 1
+ let g:PyFlakeSignStart = 1
+ let g:PyFlakeMaxLineLength = 100
+ let g:PyFlakeRangeCommand = 'Q'
 
 
 " -----------------------------------------------------------------------------
