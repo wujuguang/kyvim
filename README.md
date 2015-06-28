@@ -19,6 +19,10 @@ My vim development environment Settings
 	apt-get install ctags
 	apt-get install cscope
 
+    pip install frosted
+    pip install pep8
+    pip install mccabe
+
 # 使用
 	确保安装了完整的vim(如果是Ubuntu就直接安装软件中心的vim即可)
 	并安装好ctags与cscope,不然可能出现vim加载错误提示
