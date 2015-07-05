@@ -160,6 +160,7 @@ Bundle 'andviro/flake8-vim'
 Bundle 'hynek/vim-python-pep8-indent'
 "Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'ervandew/supertab'
+Bundle 'vim-ruby/vim-ruby'
 
 " -----------------------------------------------------------------------------
 "  < 编码配置 >
