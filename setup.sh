@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 git clone https://github.com/wujuguang/kyvim.git ~/kyvim/
 
-rm ~/.vimrc
-rm ~/.vim
+mv ~/.vimrc ~/.vimrc.bck
+mv ~/.vim ~/.vim.bck
 
 ln -s ~/kyvim/vimrc ~/.vimrc
 ln -s ~/kyvim/vim ~/.vim
