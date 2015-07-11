@@ -161,6 +161,8 @@ Bundle 'hynek/vim-python-pep8-indent'
 "Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'ervandew/supertab'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'tmux-plugins/vim-tmux'
+Bundle 'christoomey/vim-tmux-navigator'
 
 " -----------------------------------------------------------------------------
 "  < 编码配置 >
@@ -1048,4 +1050,20 @@ let g:pymode_indent = 0
 " Kylin 添加
 let g:pymode_indent = 0
 let g:pep8_map='whatever'
+
+
+" -----------------------------------------------------------------------------
+"  < vim-tmux-navigator 插件配置 >
+" -----------------------------------------------------------------------------
+" vim-tmux-navigator
+
+" Kylin 添加
+let g:tmux_navigator_no_mappings = 1
+let g:tmux_navigator_save_on_switch = 1
+
+nnoremap <silent> {Left-mapping} :TmuxNavigateLeft<cr>
+nnoremap <silent> {Down-Mapping} :TmuxNavigateDown<cr>
+nnoremap <silent> {Up-Mapping} :TmuxNavigateUp<cr>
+nnoremap <silent> {Right-Mapping} :TmuxNavigateRight<cr>
+nnoremap <silent> {Previous-Mapping} :TmuxNavigatePrevious<cr>
 
