@@ -101,6 +101,7 @@ if g:islinux
     endif
 endif
 
+set term=screen
 
 " =============================================================================
 "                          << 以下为用户自定义配置 >>
@@ -163,6 +164,7 @@ Bundle 'ervandew/supertab'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tmux-plugins/vim-tmux'
 Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'tmux-plugins/vim-tmux-focus-events'
 
 " -----------------------------------------------------------------------------
 "  < 编码配置 >
