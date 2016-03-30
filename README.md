@@ -16,12 +16,8 @@ My vim development environment Settings
 	以上各分支之间并行存在， 不允许merge， 除非理解为什么要这样做．
 
 # 安装
-	apt-get install ctags
-	apt-get install cscope
-
-    pip install frosted
-    pip install pep8
-    pip install mccabe
+    sudo apt-get install -y ctags cscope
+    sudo pip install frosted pep8 mccabe
 
 # 使用
 	确保安装了完整的vim(如果是Ubuntu就直接安装软件中心的vim即可)
@@ -35,5 +31,5 @@ My vim development environment Settings
 	打开vim并执行bundle程序:PluginInstall
 
 # 一键安装
-	下载执行 setup.sh
+	进入到要安装的文件路径，下载执行 setup.sh
 	wget https://raw.githubusercontent.com/wujuguang/kyvim/plugin/setup.sh && sh setup.sh
