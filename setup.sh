@@ -3,8 +3,8 @@
 base_path=$(cd `dirname $0`; pwd)
 git clone https://github.com/wujuguang/kyvim.git ${base_path}/kyvim/
 
-[ -f ~/.vim] && mv ~/.vim ~/.vim.bck
-[ -f ~/.vimrc] && mv ~/.vimrc ~/.vimrc.bck
+[ -f ~/.vim ] && mv ~/.vim ~/.vim.bck
+[ -f ~/.vimrc ] && mv ~/.vimrc ~/.vimrc.bck
 
 ln -s ${base_path}/kyvim/vimrc ~/.vimrc
 ln -s ${base_path}/kyvim/vim ~/.vim
