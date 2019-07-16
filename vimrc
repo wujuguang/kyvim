@@ -165,6 +165,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tmux-plugins/vim-tmux'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'tmux-plugins/vim-tmux-focus-events'
+Bundle 'zxqfl/tabnine-vim'
 
 " -----------------------------------------------------------------------------
 "  < 编码配置 >
